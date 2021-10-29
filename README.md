@@ -16,3 +16,6 @@ do:
 +"ethersV5": "github:ethers-io/ethers.js#v5.5.1" // better 
 +"ethersV5": "github:ethers-io/ethers.js" // good
 ```
+
+This package is just the ABI packaging from ethersjs@^5 
+
