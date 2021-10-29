@@ -1,0 +1,38 @@
+{
+  "author": "The Contributors <noreply@github.com>",
+  "dependencies": {
+    "@ethersproject/address": "^5.5.0",
+    "@ethersproject/bignumber": "^5.5.0",
+    "@ethersproject/bytes": "^5.5.0",
+    "@ethersproject/constants": "^5.5.0",
+    "@ethersproject/hash": "^5.5.0",
+    "@ethersproject/keccak256": "^5.5.0",
+    "@ethersproject/logger": "^5.5.0",
+    "@ethersproject/properties": "^5.5.0",
+    "@ethersproject/strings": "^5.5.0"
+  },
+  "description": "Utilities and Classes for parsing, formatting and managing Ethereum ABIs.",
+  "ethereum": "donations.ethers.eth",
+  "keywords": [
+    "Ethereum",
+    "ethers"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./lib.esm/index.js",
+  "name": "ethersv5",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "directory": "packages/abi",
+    "type": "git",
+    "url": "git://github.com/sambacha/ethersv5.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "sideEffects": false,
+  "types": "./lib/index.d.ts",
+  "version": "5.5.0"
+}
